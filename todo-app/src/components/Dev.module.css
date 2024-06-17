@@ -1,0 +1,32 @@
+.devHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: 0px;
+    top: 0;
+    font-family: cursive;
+    background-color: #9c88ff;
+    width: 100%;
+}
+.dev a{
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.github a{
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.dev a:hover, .github a:hover{
+    color: #6e757e;
+}
+@media screen and (max-width:520px) {
+    .dev, .github{
+        font-size: 1em;
+        font-weight: 100;
+    }
+}

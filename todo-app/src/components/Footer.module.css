@@ -1,0 +1,21 @@
+.footer_completed_todos, .footer_total_todos {
+    font-family: cursive;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: #9c88ff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+    padding: 5px 3px;
+    margin-bottom: -20px;
+}
+
+@media screen and (max-width:520px) {
+    .footer_completed_todos, .footer_total_todos{
+        font-size: 1.5em;
+        width: 335px;
+        padding: 3px;
+        font-weight: 400;
+    }
+}
